@@ -3,6 +3,8 @@ Heroku buildpack: Ruby
 
 This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Ruby, Rack, and Rails apps. It uses [Bundler](http://gembundler.com) for dependency management.
 
+Singlebrook's fork adds support for [nbbroadbent's turbo sprockets gem](https://github.com/ndbroadbent/turbo-sprockets-rails3) that radically improves deployment Heroku deployment times.
+
 Usage
 -----
 
